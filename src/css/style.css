@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+* {
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border: 2px solid rgba(0,0,0,.6);
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.login-form #login-form-topic {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input[type=password], .login-form input[type=text] {
+    padding: 5px;
+    font-size: 30px;
+    color: rgba(0,0,0,.5);
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,.5);
+    outline: none;
+    height: 50px;
+    width: 600px;
+}
+.login-form input[type=submit] {
+    border: 1px solid rgba(0,0,0,.5);
+    background: transparent;
+    outline: none;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+    transition: .3s ease-out;
+}
+.login-form input[type=submit]:hover {
+    background: rgba(13,2,127,.5);
+    color: white;
+    transition: .3s ease-out;
+}
+.login-form #no-account {
+    font-size: 30px;
+    margin-left: 50px;
+}
+.login-form #no-account a {
+    text-decoration-color: dodgerblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.login-form #error {
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    background: rgba(180,0,0,.5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
